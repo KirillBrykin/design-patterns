@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("api/v1/test")
-public class Test {
+@RequestMapping("api/v1/design-patterns")
+public class DesignPatternsController {
 
     @GetMapping
-    public void hello() {
-        System.out.println("---- Test.hello ----");
+    public void test() {
+        log.info("DesignPatternsController.test");
     }
 }
